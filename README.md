@@ -1,4 +1,4 @@
 # API_REST
-Criação de uma Api Rest com Node.js e MongoDB
+Criação de uma Api Rest com nodemon e express
 
-# Em Construção
+# Finalizado
