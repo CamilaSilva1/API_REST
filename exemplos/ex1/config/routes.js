@@ -39,3 +39,5 @@ routes.post("/insertUser", (req, resp) => {
     // return the responser 
     return resp.json(body);
 })
+
+module.exports = routes;

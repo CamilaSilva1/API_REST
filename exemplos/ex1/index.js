@@ -7,6 +7,7 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const routes = require('./config/routes')
 
 // starting server
 const app = express();
@@ -18,6 +19,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.json());
 app.use(cors());
+app.use(routes);
 
 // turning on the server
 app.listen(3000, () => {
